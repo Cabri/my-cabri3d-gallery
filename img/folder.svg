@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns1="http://sozi.baierouge.fr" id="svg1" sodipodi:docname="Anonymous_blue_folder.svg" inkscape:export-filename="/home/ice/www/council/images/folder.png" viewBox="0 0 596.37 409.44" sodipodi:version="0.32" inkscape:export-xdpi="4.8292031" version="1.0" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:export-ydpi="4.8292031" inkscape:version="0.45+devel" sodipodi:docbase="/home/wwwroot/council/images">
+  <defs id="defs3">
+    <linearGradient id="linearGradient1699">
+      <stop id="stop1700" style="stop-color:#017eff" offset="0"/>
+      <stop id="stop1701" style="stop-color:#ecfaff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient1702" y2="460.76" xlink:href="#linearGradient1699" gradientUnits="userSpaceOnUse" y1="908.78" gradientTransform="scale(1.3194 .75793)" x2="50.829" x1="315.32" inkscape:collect="always"/>
+    <linearGradient id="linearGradient1704" y2="716.1" xlink:href="#linearGradient1699" gradientUnits="userSpaceOnUse" y1="965.31" gradientTransform="scale(1.3991 .71474)" x2="160.94" x1="332.32" inkscape:collect="always"/>
+  </defs>
+  <sodipodi:namedview id="base" bordercolor="#666666" inkscape:pageshadow="2" inkscape:guide-bbox="true" pagecolor="#ffffff" inkscape:zoom="0.10853959" inkscape:window-width="1041" showgrid="false" borderopacity="1.0" inkscape:current-layer="layer1" inkscape:cx="759.02120" inkscape:cy="2009.5904" inkscape:window-y="5" inkscape:window-x="0" inkscape:window-height="828" inkscape:pageopacity="0.0" showguides="true"/>
+  <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer" transform="translate(-84.138 -331.98)">
+    <path id="rect1061" sodipodi:nodetypes="ccccccccccc" style="stroke-dashoffset:1.25;display:block;stroke:#446c98;stroke-width:6.25;fill:url(#linearGradient1702)" d="m100.56 363.89c-9.315 2.21-15.034 11.5-12.822 20.81l77.082 340.02c2.22 9.31 11.47 15.03 20.78 12.82l434.2-103.16c9.31-2.21 15.03-11.5 12.82-20.81l-54.22-263.8c-2.21-9.31-11.5-14.31-20.81-12.81l-253.26 37.67s-23.54-41.66-32.85-39.44l-170.92 28.7z"/>
+    <path id="rect1063" sodipodi:nodetypes="ccccccccc" style="opacity:.82490;stroke-dashoffset:1.25;display:block;stroke:#446c98;stroke-width:6.25;fill:url(#linearGradient1704)" d="m657.01 396.91l-426.68 70.66c-9.32 2.21-17.26 9.95-18.26 18.94l-46.74 239.1c1.97 8.28 11.05 14.44 20.36 12.22l434.18-103.15c9.31-2.22 12.34-10.12 14.24-18.31l43.25-208.51c0.59-15.16-11.76-11.72-20.35-10.95z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>blue folder</dc:title>
+        <dc:date>2008-02-04T23:36:48</dc:date>
+        <dc:description/>
+        <dc:source>https://openclipart.org/detail/12658/blue-folder-by-anonymous-12658</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Anonymous</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>folder</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>symbol</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
