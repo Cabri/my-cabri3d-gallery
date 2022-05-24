@@ -5,10 +5,12 @@ pagination:
 permalink: '{{ pagination.items[0].name }}/index.html'
 layout: directory
 ---
-<h1>{{ pagination.items[0].title }}</h1>
+{% assign item = pagination.items[0] %}
+
+<h1>{{ item.title }}</h1>
 
 <div id="gallery">
-  {% for figure in pagination.items[0].cg3s %}
+  {% for figure in pagination.items[0].children %}
   <!-- figure {{figure}}-->
   <div class="cssbox">
     <a href="{{figure.name}}" id="figure{{forloop.index}}">

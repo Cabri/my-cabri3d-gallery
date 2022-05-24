@@ -1,4 +1,5 @@
 {
   "player": "https://gallery.cabri.com/player/main.js?version=2022-04-24",
-  "title": "My CG3 Gallery"
+  "children": ["*.cg3", "*.docx", "*.doc", "*.odt", "*/"],
+  "ignores": ["_site/**", "node_modules/**", "src/**", "~$*"]
 }
