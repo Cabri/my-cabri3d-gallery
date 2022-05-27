@@ -2,9 +2,13 @@ const spawn = require('child_process').spawn
 const execSync = require('child_process').execSync
 const fs = require('fs')
 
-const transformHtml = function (content) {
+const transformHtml = function (content, item) {
+  const regexp = new RegExp(('^../' + item.toRoot).replaceAll('.','\\.'),'g');
+  console.log("Regexp: " + regexp)
   return content.replace("</head>",
-      `<script src='https://gallery.cabri.com/phs-player/cg3Display.js?version=${Date.now()}'></script></head>` )
+      `<script src='${item.toRoot}../js/cg3Display.js?version=${Date.now()}'></script></head>` )
+      .replace(/href="([^"]*).cg3/g, "href=\"../$1.cg3");
+
 }
 
 const transform = function (input) {
@@ -24,13 +28,14 @@ const transform = function (input) {
       const fn = "../../" + item.toRoot + src,
           dstdir = dst.replace(/\/[^/]+$/, "");
       fs.mkdirSync(dstdir, {recursive:true})
+      fs.copyFileSync(src, dstdir + "/" + item.filename)
       let command = `soffice`,
-        args = ['--convert-to', 'html:HTML', '--headless',  fn];
+        args = ['--convert-to', 'html:HTML', '--headless',  item.title];
       console.log("Running in " + dstdir)
       execSync(command + " " + args.join(' '), {cwd: dstdir, stdio: "inherit"})
       const ooOutputFile = "_site/" + item.pathbase + "/" + item.name + ".html";
       const content = fs.readFileSync(ooOutputFile, "utf-8");
-      resolve(transformHtml(content))
+      resolve(transformHtml(content, item))
       fs.unlinkSync(ooOutputFile)
     } catch (err) {
       reject(err)

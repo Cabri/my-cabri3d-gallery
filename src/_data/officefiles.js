@@ -12,12 +12,13 @@ async function generate(eleventyConfig) {
   for(let file of files) {
     let toRoot = galleryObjects.calcToRoot(file);
     let pathbase = file.replace(/\.[^\.]*$/, "")
-    const title = file.replace(/\/$/,"").replace(/^.*\//, "");
+    const title = filename = file.replace(/\/$/,"").replace(/^.*\//, "");
     coll.push({
       pathbase: pathbase,
       name: pathbase.replace(/^.*\//,""),
       title: title,
       toRoot: toRoot,
+      filename: filename,
       src: file,
       isNotRoot: true,
     });
